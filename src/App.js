@@ -69,7 +69,7 @@ const App = () => {
   useEffect(() => {
     fetchData();
   }, []);
-
+// data
   return (
     <div>
       {Array.isArray(data) ? (
